@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import tttGif from '../../images/TTT.gif'
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -89,7 +90,7 @@ const Projects = () => {
                         <Tilt
                           options={{
                             reverse: false,
-                            max: 8,
+                            max: 10,
                             perspective: 1000,
                             scale: 1,
                             speed: 300,
