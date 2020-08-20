@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'tictactoe.png',
     title: 'TTT',
     info: '',
     info2: '',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'covidsocial.png',
     title: '',
     info: '',
     info2: '',
