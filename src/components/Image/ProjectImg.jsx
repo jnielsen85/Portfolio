@@ -12,6 +12,8 @@ const ProjectImg = ({ filename, alt }) => (
             node {
               relativePath
               name
+              extension
+              publicURL
               childImageSharp {
                 fluid(maxWidth: 1366) {
                   ...GatsbyImageSharpFluid
@@ -24,9 +26,13 @@ const ProjectImg = ({ filename, alt }) => (
     `}
     render={(data) => {
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
-
-      if (!image) return null;
-
+      console.log(image)
+      if (!image) {
+        return null;
+      }
+      if (image.node.extension === 'gif') {
+        return <img src={image.node.publicURL} />;
+      }
       const imageFluid = image.node.childImageSharp.fluid;
       return <Img alt={alt} fluid={imageFluid} />;
     }}
