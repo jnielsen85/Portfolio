@@ -28,21 +28,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'TTT.gif',
-    title: 'TTT',
+    img: 'TTTv2.gif',
+    title: 'Tic Tac Toe',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jnielsen85.github.io/project0-tictactoe/index.html',
+    repo: 'https://github.com/jnielsen85/project0-tictactoe', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'covidsocial.png',
-    title: '',
+    img: 'coviddrinkinggif.gif',
+    title: 'Covid Social',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://drinking-game-663f5.web.app/',
+    repo: 'https://github.com/jnielsen85/CovidSocialDrinks', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
