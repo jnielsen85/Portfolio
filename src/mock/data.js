@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'James Headshot B_W.jpg',
-  paragraphOne: "I offer a unique combination of soft and now proud to say, hard skills having recently completed Genral Assembly's Software Engineering immersive.",
-  paragraphTwo: "I am academic and analytical, with a natural aptitude for stakeholder and relationship management.  Im an avowed life learner and always in pursuit of the 'why', which has twice lead me back to study as an adult.  First completing my MBA (conferred with distinction) and most recently the aforementioned GA Software Engineering Immersive.",
+  paragraphOne: "I offer a unique combination of soft and now proud to say hard skills, having recently completed Genral Assembly's Software Engineering immersive.",
+  paragraphTwo: "I am academic and analytical, with a natural aptitude for stakeholder and relationship management.  Im an avowed life learner and always in pursuit of the 'why', which has twice lead me back to study as an adult.  First completing my MBA (conferred with distinction) and most recently the aforementioned GA course.",
   paragraphThree: "My goal now is to combine my repertoire of soft and technical skills and pursue a role as a technically qualified Field Fep or Sales Savy Solutions Engineer (one with a keen appreciation of their role in revenue generation)",
   resume: 'https://drive.google.com/file/d/0B8KOklVpF6RZdWFkdi0zamVQb01EaXpoOXQ1b0RpZUU2a0pN/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -47,8 +47,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'beerpedia.gif',
-    title: '',
-    info: '',
+    title: 'BeerPeedia',
+    info: 'A beer database for homebrew enthusiasts.  Built with Ruby on Rails, postgreSQL and deployed on Heroku, signup, login, create a profile start browsing recipes contributed by other homebrew afficionados or submit your own.  Browse recipes by style, or the brewer who submitted.  RubyonRails, postgreSQL, Heroku, Bcrypt (authentication).',
     info2: '',
     url: 'https://project1herokupush1.herokuapp.com/',
     repo: 'https://github.com/jnielsen85/Beerpedia', // if no repo, the button will not show up
@@ -57,7 +57,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'TTTv2.gif',
     title: 'Tic Tac Toe',
-    info: '',
+    info: 'The game many asiring deverlopers cut their teeth.  My first foray into the world of builfing apps, built with vanilla JS and Jquery.  A classic given a retro feel with no small amount of CSS styling required.',
     info2: '',
     url: 'https://jnielsen85.github.io/project0-tictactoe/index.html',
     repo: 'https://github.com/jnielsen85/project0-tictactoe', // if no repo, the button will not show up
@@ -66,9 +66,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Have a role you think I might be a good fit for?',
   btn: '',
-  email: '',
+  email: 'thisisjn@gmail.com',
 };
 
 // FOOTER DATA
@@ -76,23 +76,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jamesnielsen1',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jnielsen85',
     },
   ],
 };

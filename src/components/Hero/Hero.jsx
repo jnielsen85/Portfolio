@@ -29,7 +29,7 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {subtitle}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
@@ -41,6 +41,11 @@ const Header = () => {
             </span>
           </p>
         </Fade>
+        <span className="back-to-top">
+          <Link to="about" smooth duration={2000}>
+            <i className="fa fa-angle-up fa-2x" aria-hidden="true" /> I
+          </Link>
+        </span>
       </Container>
     </section>
   );
