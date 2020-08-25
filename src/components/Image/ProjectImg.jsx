@@ -3,6 +3,11 @@ import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
+const gifSize = {
+  maxWidth: '100%',
+  maxHeight: '100%',
+}
+
 const ProjectImg = ({ filename, alt }) => (
   <StaticQuery
     query={graphql`
@@ -31,7 +36,7 @@ const ProjectImg = ({ filename, alt }) => (
         return null;
       }
       if (image.node.extension === 'gif') {
-        return <img src={image.node.publicURL} />;
+        return <img src={image.node.publicURL} style={gifSize}/>;
       }
       const imageFluid = image.node.childImageSharp.fluid;
       return <Img alt={alt} fluid={imageFluid} />;

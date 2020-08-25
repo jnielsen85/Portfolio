@@ -67,7 +67,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Have a role you think I might be a good fit for?',
-  btn: '',
+  btn: "Let's Talk",
   email: 'thisisjn@gmail.com',
 };
 
@@ -85,9 +85,4 @@ export const footerData = {
       url: 'https://github.com/jnielsen85',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
