@@ -57,7 +57,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'TTTv2.gif',
     title: 'Tic Tac Toe',
-    info: 'The game many asiring deverlopers cut their teeth.  My first foray into the world of builfing apps, built with vanilla JS and Jquery.  A classic given a retro feel with no small amount of CSS styling required.',
+    info: 'A classic game and one many asiring deverlopers cut their teeth on.  My first foray into the world of building apps, built with Vanilla JS and Jquery.  A classic game with a classic retro feel (no small amount of CSS styling was required).',
     info2: '',
     url: 'https://jnielsen85.github.io/project0-tictactoe/index.html',
     repo: 'https://github.com/jnielsen85/project0-tictactoe', // if no repo, the button will not show up
@@ -83,6 +83,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/jnielsen85',
+    },
+    {
+      id: nanoid(),
+      name: 'send',
+      url: 'mailto:thisisjn@gmail.com',
     },
   ],
 };
