@@ -21,11 +21,38 @@ export const aboutData = {
   paragraphOne: "I offer a unique combination of soft and now proud to say, hard skills having recently completed Genral Assembly's Software Engineering immersive.",
   paragraphTwo: "I am academic and analytical, with a natural aptitude for stakeholder and relationship management.  Im an avowed life learner and always in pursuit of the 'why', which has twice lead me back to study as an adult.  First completing my MBA (conferred with distinction) and most recently the aforementioned GA Software Engineering Immersive.",
   paragraphThree: "My goal now is to combine my repertoire of soft and technical skills and pursue a role as a technically qualified Field Fep or Sales Savy Solutions Engineer (one with a keen appreciation of their role in revenue generation)",
-  resume: 'https://drive.google.com/file/d/1SfLIm2C2pq_nvjOunQc4vdwVSqAdAeX-/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/0B8KOklVpF6RZdWFkdi0zamVQb01EaXpoOXQ1b0RpZUU2a0pN/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA of soft skills and new found tech skills to a role within the technology sector.   A Unicorn Employee.. maybe
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'JNSsurf.gif',
+    title: 'JNS Surf (Under development)',
+    info: 'A Gatsby v2 and Netlify CMS powered site for JNS Surfboards. A local shaper of custom boards from the Gold Coast QLD.  Follows JAMstack architecture by using Git as a single source of truth, Netlify for continuous deployment, and CDN distribution. Stripe Checkout is used for payment collection.',
+    info2: 'Netlify hosted | Netlify CMS for Content Management | ElasticLunr Search | Contact and New Board Order Form (Netlify Forms) | SEO Friendly (Sitemap, Schemas, Meta Tags)',
+    url: 'https://hopeful-raman-c3c7d5.netlify.app/',
+    repo: 'https://github.com/jnielsen85/FinalProject/tree/master/gatsby-JNS%20Surfboards', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'coviddrinkinggif.gif',
+    title: 'Covid Social',
+    info: 'The say necessity is the mother of invention. The brainchild of 4 aspiring (and social) web developers, lockeddown due to COVID yet wanting to spend quality, albeit, socially distanced time together. The goal then, was to bridge the digital and social divide between remote GA Students with a lighthearted drinking game.',
+    info2: '',
+    url: 'https://drinking-game-663f5.web.app/',
+    repo: 'https://github.com/jnielsen85/CovidSocialDrinks', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'beerpedia.gif',
+    title: '',
+    info: '',
+    info2: '',
+    url: 'https://project1herokupush1.herokuapp.com/',
+    repo: 'https://github.com/jnielsen85/Beerpedia', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'TTTv2.gif',
@@ -34,24 +61,6 @@ export const projectsData = [
     info2: '',
     url: 'https://jnielsen85.github.io/project0-tictactoe/index.html',
     repo: 'https://github.com/jnielsen85/project0-tictactoe', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'coviddrinkinggif.gif',
-    title: 'Covid Social',
-    info: '',
-    info2: '',
-    url: 'https://drinking-game-663f5.web.app/',
-    repo: 'https://github.com/jnielsen85/CovidSocialDrinks', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
